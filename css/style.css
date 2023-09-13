@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,500&family=Quicksand:wght@300;500;700&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --white: #ffffff; 
+    --black: #000000; 
+    --golden: #ffc629; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,1) 0%, rgba(2,1,6,0.9192051820728291) 0%, rgba(14,2,7,1) 0%, rgba(83,201,134,0.9023984593837535) 49%, rgba(2,5,9,0.958420868347339) 100%, rgba(6,58,35,1) 100%);
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: 'EB Garamond', serif;
+    backdrop-filter: blur(40px);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.content-header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    height: 80px;
+    z-index: 20;
+    padding: 0 30px;
+}
+
+.content-header .content-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-header .content-title a {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--golden);
+    text-decoration: none;
+}
+
+.content-header .content-title h2 {
+    font-size: 15px;
+    padding-top: 19px;
+    user-select: none;
+}
+
+.content-header .menu-option ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    float: right;
+}
+
+.content-header .menu-option ul li:hover {
+    color: var(--golden);
+    cursor: pointer;
+    background-image: radial-gradient();
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+}
+.container img{
+    width: 300px;
+    height: auto;
+    padding: 100px;
+}
+
+.container h2 {
+    
+    
+}
